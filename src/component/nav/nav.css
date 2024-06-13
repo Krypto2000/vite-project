@@ -1,0 +1,60 @@
+.navbar{
+    margin: auto;
+    max-width: 1140px;
+    align-items: center;
+    display: flex;
+    background: #26272b83;
+    border-radius: 1rem;
+    height: 5rem;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1{
+  margin: 1rem;
+  text-align: center;
+}
+h1 span:first-child {
+  font-weight: 800;
+}
+.logo-text span {
+  color: orangered;
+  font-family: "Annie Use Your Telescope", cursive;
+font-weight: 400;
+font-style: normal;
+
+}
+a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #f4f4f4;
+  font-family: "Annie Use Your Telescope", cursive;
+}
+.nav-links li {
+  list-style: none;
+  margin-left: 10px;
+}
+.nav-links li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: all .3s;
+}
+ .menu-icons {
+  background: transparent;
+  border: none;
+ cursor: pointer;
+ color: #fff;
+}

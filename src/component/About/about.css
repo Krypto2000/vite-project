@@ -1,0 +1,19 @@
+.about {
+    color: #faebd7;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    max-width: 1140px;
+}
+h1 {
+    margin: 0.1rem;
+    text-align: center;
+}
+h1 span:first-child {
+    font-weight: 800;
+}
+span {
+    color: #ff4500;
+    font-size: 40px;
+}

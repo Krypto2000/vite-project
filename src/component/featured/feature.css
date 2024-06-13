@@ -1,0 +1,67 @@
+.feature{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 40%;
+    color: orangered;
+    margin-top: 8rem;
+}
+.feature-left{
+    font-weight: 100;
+    color: orangered;
+    font-family: "Annie Use Your Telescope", cursive;
+  font-style: normal;
+}
+ h1 span{
+    color: orangered;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    display: block;
+    padding: 1rem;
+    margin-left: 6rem;
+    line-height: 0.9;
+
+}
+h1 span:first-child{
+    font-weight: 800;
+}
+h1 span:nth-child(2) {
+    font-weight: 100;
+}
+
+h1 span:nth-child(3)  {
+    font-weight: 100;
+}
+.feature-right img{
+    width: 70%;
+    height: 80%;
+}
+@media only screen and (max-width: 768px){
+    .feature{
+        display: block;
+    }
+    
+    h1 span{
+        font-size: 2rem;
+        margin-right: 5rem;
+        line-height: 1.8rem;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .feature-left {
+    margin-bottom: 4rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.feature-right {
+    border-radius: 5rem;
+    height: 450px;
+    margin-top: 1rem;
+    padding-left: 50px;
+    width: 100%;
+}
